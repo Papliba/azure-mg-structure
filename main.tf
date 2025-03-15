@@ -1,8 +1,3 @@
-provider "azurerm" {
-  features {}
-  subscription_id = "e4403c08-7702-43b0-82c7-32b902aa0933"
-}
-
 # Tenant Root Group
 data "azurerm_management_group" "Tenant-Root-Group" {
   display_name = "Tenant Root Group"

@@ -7,3 +7,8 @@ terraform {
     }
   }
 }
+
+provider "azurerm" {
+  features {}
+  subscription_id = "e4403c08-7702-43b0-82c7-32b902aa0933"
+}
